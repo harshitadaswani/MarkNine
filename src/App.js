@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
+import seriesLib from "./database.js";
 
 export default function App() {
   return (
