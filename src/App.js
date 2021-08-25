@@ -13,17 +13,17 @@ export default function App() {
   }
 
   function SeriesPost(series) {
-    const title = seriesLib.name;
-    const imgUrl = seriesLib.image;
-    const desc = seriesLib.description;
-    const rating = seriesLib.rating;
+    const title = series.name;
+    const imgUrl = series.image;
+    const desc = series.description;
+    const rating = series.rating;
     const seriesList = (
       <li>
         <img alt="poster" src={imgUrl} />
-        <div style={{ padding: "0rem 1rem" }}>
+        <div class="output-list">
           <h3>{title}</h3>
           <p>{desc}</p>
-          <p style={{ fontWeight: "bold" }}>{rating}</p>
+          <p class="rating">{rating}</p>
         </div>
       </li>
     );

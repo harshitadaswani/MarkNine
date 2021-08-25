@@ -2,3 +2,24 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-color: #f43f5e;
+  color: #fff1f2;
+
+  margin: auto;
+  max-width: 80%;
+}
+
+hr {
+  border: 1px solid #fff1f2;
+}
+
+.rating {
+  font-weight: "bold";
+}
+
+.output-list {
+  padding: "0rem 1rem";
+  background-color: #fb7185;
+}
