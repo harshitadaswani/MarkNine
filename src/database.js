@@ -1,12 +1,5 @@
 const seriesLib = {
-  comedySeries: [
-    {
-      name: "Brooklyn Nine-Nine",
-      description:
-        "Comedy series following the exploits of Det. Jake Peralta and his diverse, lovable colleagues as they police the NYPD's 99th Precinct.",
-      rating: "8.4/10",
-      image: "https://i.postimg.cc/Sx3gvPvH/brooklyn-Nine-Nine.jpg"
-    },
+  Comedy: [
     {
       name: "The Office",
       description:
@@ -22,11 +15,11 @@ const seriesLib = {
       image: "https://i.postimg.cc/JhtWbSBg/friends.jpg"
     },
     {
-      name: "Never Have I Ever",
+      name: "Brooklyn Nine-Nine",
       description:
-        "The complicated life of a modern-day first generation Indian American teenage girl, inspired by Mindy Kaling's own childhood.",
-      rating: "7.9/10",
-      image: "https://i.postimg.cc/9FztHpZ2/never-Have-IEver.jpg"
+        "Comedy series following the exploits of Det. Jake Peralta and his diverse, lovable colleagues as they police the NYPD's 99th Precinct.",
+      rating: "8.4/10",
+      image: "https://i.postimg.cc/Sx3gvPvH/brooklyn-Nine-Nine.jpg"
     },
     {
       name: "The Umbrella Academy",
@@ -34,17 +27,17 @@ const seriesLib = {
         "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
       rating: "8.0/10",
       image: "https://i.postimg.cc/V6YnGBm3/the-Umbrella-Academy.jpg"
+    },
+    {
+      name: "Never Have I Ever",
+      description:
+        "The complicated life of a modern-day first generation Indian American teenage girl, inspired by Mindy Kaling's own childhood.",
+      rating: "7.9/10",
+      image: "https://i.postimg.cc/9FztHpZ2/never-Have-IEver.jpg"
     }
   ],
 
-  sciFiSeries: [
-    {
-      name: "Loki",
-      description:
-        "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”",
-      rating: "8.4/10",
-      image: "https://i.postimg.cc/Ss83d4QZ/loki.jpg"
-    },
+  SciFi: [
     {
       name: "Stranger Things",
       description:
@@ -58,6 +51,13 @@ const seriesLib = {
         "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
       rating: "8.7/10",
       image: "https://i.postimg.cc/Cx34NqZg/theBoys.jpg"
+    },
+    {
+      name: "Loki",
+      description:
+        "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”",
+      rating: "8.4/10",
+      image: "https://i.postimg.cc/Ss83d4QZ/loki.jpg"
     },
     {
       name: "The Flash",
@@ -75,13 +75,20 @@ const seriesLib = {
     }
   ],
 
-  romanceSeries: [
+  Romance: [
     {
-      name: "Grey's Anatomy",
+      name: "How I Met Your Mother",
       description:
-        "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
-      rating: "7.5/10",
-      image: "https://i.postimg.cc/rwfkRqzx/greys-Anatomy.jpg"
+        "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
+      rating: "8.3/10",
+      image: "https://i.postimg.cc/8PBDDRSy/how-IMet-Your-Mother.jpg"
+    },
+    {
+      name: "The Big Bang Theory",
+      description:
+        "A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.",
+      rating: "8.1/10",
+      image: "https://i.postimg.cc/rFhnSsCV/the-Big-Bang-Theory.jpg"
     },
     {
       name: "The Vampire Diaries",
@@ -98,22 +105,15 @@ const seriesLib = {
       image: "https://i.postimg.cc/d14dzk0D/you.jpg"
     },
     {
-      name: "How I Met Your Mother",
+      name: "Grey's Anatomy",
       description:
-        "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
-      rating: "8.3/10",
-      image: "https://i.postimg.cc/8PBDDRSy/how-IMet-Your-Mother.jpg"
-    },
-    {
-      name: "The Big Bang Theory",
-      description:
-        "A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.",
-      rating: "8.1/10",
-      image: "https://i.postimg.cc/rFhnSsCV/the-Big-Bang-Theory.jpg"
+        "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
+      rating: "7.5/10",
+      image: "https://i.postimg.cc/rwfkRqzx/greys-Anatomy.jpg"
     }
   ],
 
-  actionSeries: [
+  Action: [
     {
       name: "Game of Thrones",
       description:
@@ -136,36 +136,29 @@ const seriesLib = {
       image: "https://i.postimg.cc/LsPxKTd5/prison-Break.jpg"
     },
     {
+      name: "Killing Eve",
+      description:
+        "After a series of events, the lives of a security operative and an assassin become inextricably linked.",
+      rating: "8.2/10",
+      image: "https://i.postimg.cc/sXhdLSm4/killing-Eve.jpg"
+    },
+    {
       name: "The Falcon and the Winter Soldier",
       description:
         "Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.",
       rating: "7.3/10",
       image:
         "https://i.postimg.cc/J4g3rk5k/the-Falcon-And-The-Winter-Soldier.jpg"
-    },
-    {
-      name: "Killing Eve",
-      description:
-        "After a series of events, the lives of a security operative and an assassin become inextricably linked.",
-      rating: "8.2/10",
-      image: "https://i.postimg.cc/sXhdLSm4/killing-Eve.jpg"
     }
   ],
 
-  crimeSeries: [
+  Crime: [
     {
       name: "Breaking Bad",
       description:
         "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
       rating: "9.4/10",
       image: "https://i.postimg.cc/7ZH4L5Pq/breaking-Bad.jpg"
-    },
-    {
-      name: "Lucifer",
-      description:
-        "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels.",
-      rating: "8.1/10",
-      image: "https://i.postimg.cc/cLrDTWXQ/lucifer.jpg"
     },
     {
       name: "Peaky Blinders",
@@ -187,6 +180,13 @@ const seriesLib = {
         "Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.",
       rating: "8.5/10",
       image: "https://i.postimg.cc/fTK41Mcp/mrRobot.jpg"
+    },
+    {
+      name: "Lucifer",
+      description:
+        "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels.",
+      rating: "8.1/10",
+      image: "https://i.postimg.cc/cLrDTWXQ/lucifer.jpg"
     }
   ]
 };

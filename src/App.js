@@ -5,7 +5,7 @@ import seriesLib from "./database.js";
 const genres = Object.keys(seriesLib);
 
 export default function App() {
-  const [currentGenre, setGenre] = useState(seriesLib.comedySeries);
+  const [currentGenre, setGenre] = useState(seriesLib.Comedy);
 
   function genreClickHandler(genre) {
     const series = seriesLib[genre];
@@ -21,9 +21,9 @@ export default function App() {
       <li>
         <img alt="poster" src={imgUrl} />
         <div class="output-list">
-          <h3>{title}</h3>
+          <h3 class="title">{title}</h3>
           <p>{desc}</p>
-          <p class="rating">{rating}</p>
+          <p class="rating">Rating: {rating}</p>
         </div>
       </li>
     );

@@ -1,25 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 .App {
-  font-family: sans-serif;
   text-align: center;
 }
 
 body {
   background-color: #f43f5e;
   color: #fff1f2;
-
+  font-family: "Source Sans Pro", sans-serif;
   margin: auto;
   max-width: 80%;
 }
 
+h1 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 4rem;
+}
+
 hr {
   border: 1px solid #fff1f2;
+  margin: 1rem;
+  margin-right: 2rem;
+}
+
+ul {
+  padding: 1rem;
+  list-style: none;
+  color: #180609;
+  padding-inline-start: 0;
+}
+
+li {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding: 1rem;
+}
+
+img {
+  align-items: left;
+}
+
+h3 {
+  margin: 5px;
+  text-align: center;
+}
+
+p {
+  padding-left: 0.6em;
+  max-width: 90%;
+  text-align: justify;
+}
+
+button.btn {
+  margin: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5em;
+  font-size: 1rem;
+  background-color: #fff1f2;
+  color: #e11d48;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fecdd3;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .rating {
   font-weight: "bold";
+  padding-left: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .output-list {
-  padding: "0rem 1rem";
   background-color: #fb7185;
+  padding: 0.5rem;
+  border: none;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
 }
