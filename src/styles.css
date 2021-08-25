@@ -90,3 +90,22 @@ button:hover {
   border-top-right-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
 }
+
+.footer {
+  align-content: center;
+  padding: 1rem;
+  bottom: 0%;
+  position: scroll;
+}
+
+.social-container {
+  margin-top: 0rem;
+  flex-direction: column;
+  align-content: center;
+}
+
+.social-icons {
+  padding: 0rem 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
